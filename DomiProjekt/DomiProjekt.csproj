@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Model\Falu.cs" />
+    <Compile Include="Model\Kozseg.cs" />
+    <Compile Include="Model\Telepules.cs" />
+    <Compile Include="Model\Orszag.cs" />
+    <Compile Include="Model\Tartomany.cs" />
+    <Compile Include="Model\Varos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
