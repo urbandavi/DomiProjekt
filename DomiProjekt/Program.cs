@@ -10,6 +10,7 @@ namespace DomiProjekt
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Initial");
         }
     }
 }
