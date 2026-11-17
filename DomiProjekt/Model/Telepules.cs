@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace DomiProjekt.Model
 {
-    internal class Telepules
+    internal abstract class Telepules : Tartomany
     {
+
+        private string polgarmester;
+        private int alapitasEve;
+
+        private string telepulesNev;
+
+        protected Telepules(string polgarmester, int alapitasEve, string telepulesNev, string tartomanynev, string kategoria, string orszagNev, string allamForma, string foldresz, string nyelv) : base(orszagNev, allamforma, kontinens, nyelv)
+        {
+            Polgarmester = polgarmester;
+            AlapitasEve = alapitasEve;
+            TelepulesNev = telepulesNev;
+        }
+
+        protected string Polgarmester { get => polgarmester; set => polgarmester = value; }
+        protected int AlapitasEve { get => alapitasEve; set => alapitasEve = value; }
+        protected string TelepulesNev { get => telepulesNev; set => telepulesNev = value; }
     }
 }
