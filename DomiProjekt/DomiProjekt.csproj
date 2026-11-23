@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Model\Falu.cs" />
-    <Compile Include="Model\Kozseg.cs" />
+    <Compile Include="Model\Nemzetisegek.cs" />
     <Compile Include="Model\Telepules.cs" />
     <Compile Include="Model\Orszag.cs" />
     <Compile Include="Model\Tartomany.cs" />

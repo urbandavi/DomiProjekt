@@ -12,8 +12,9 @@ namespace DomiProjekt
         static void Main(string[] args)
         {
             Console.WriteLine("Initial");
+            List<string> nemz = new List<string>(){"asd", "asd", "asd"};
 
-            Falu matyasbator = new Falu("09-18", "Utcafalu", "Magyar" , "Varga Dominik", 1767, "Mátyásbátor", "Hajdú-Bihar Megye", "Megye", "Hungarisztán", "Köztársaság", "Európa", "Magyar");
+            Falu matyasbator = new Falu("09-18", "Utcafalu", nemz, "Varga Dominik", 1767, "Mátyásbátor", "Hajdú-Bihar Megye", "Megye", "Hungarisztán", "Köztársaság", "Európa", "Magyar");
             matyasbator.ToString();
             Varos baja = new Varos("Megapolisz", "Halászlé", "Kiss Norber", 2, "Baja", "Bács-Kiskun" , "Megye", "Nagy Magyar Birodalom", "Monarchia", "Eurázsia", "Magyar");
             baja.ToString();
