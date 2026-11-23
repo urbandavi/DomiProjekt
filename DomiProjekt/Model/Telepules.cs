@@ -14,9 +14,7 @@ namespace DomiProjekt.Model
 
         private string telepulesNev;
 
-        public Telepules(string tartomanyNev, string kategoria, string orszagNev, string allamforma, string kontinens, string nyelv) : base(tartomanyNev, kategoria, orszagNev, allamforma, kontinens, nyelv)
-        {
-        }
+        
 
         protected Telepules(string polgarmester, int alapitasEve, string telepulesNev, string tartomanynev, string kategoria, string orszagNev, string allamForma, string foldresz, string nyelv) : base(tartomanynev, kategoria,orszagNev, allamForma, foldresz, nyelv)
         {

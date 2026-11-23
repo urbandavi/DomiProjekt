@@ -11,7 +11,7 @@ namespace DomiProjekt.Model
         private string tipus;
         private string specialitas;
 
-        public Varos(string tipus, string specialitas, string polgarmester, int alapitasEve, string telepulesNev, string tartomanynev, string kategoria, string orszagNev, string allamForma, string foldresz, string nyelv) : base(tartomanynev, kategoria, orszagNev, allamForma, foldresz, nyelv)
+        public Varos(string tipus, string specialitas, string polgarmester, int alapitasEve, string telepulesNev, string tartomanynev, string kategoria, string orszagNev, string allamForma, string foldresz, string nyelv) : base(polgarmester,alapitasEve,telepulesNev,tartomanynev, kategoria, orszagNev, allamForma, foldresz, nyelv)
         {
             Tipus = tipus;
             Specialitas = specialitas;
@@ -22,7 +22,7 @@ namespace DomiProjekt.Model
 
         public override void ToString()
         {
-            Console.WriteLine($"{Foldresz}, {OrszagNev} ({AllamForma}, {Nyelv}), {TartomanyNev}-{Kategoria}, {TelepulesNev}, {Polgarmester}, {AlapitasEve},  {Specialitas}, {Tipus}");
+            Console.WriteLine($"{Foldresz}, {OrszagNev} ({AllamForma}, {Nyelv}), {TartomanyNev} {Kategoria}, {TelepulesNev}, {Polgarmester}, {AlapitasEve},  {Specialitas}, {Tipus}");
         }
     }
 }
